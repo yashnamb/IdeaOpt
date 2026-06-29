@@ -2,6 +2,8 @@
 
 Bounded multi-agent optimization of startup hypotheses under drift and budget constraints.
 
+> Built at the [AGI House Multi-Agent Orchestration Build Day](https://app.agihouse.org/events/multi-agent-orchestration-build-day) hackathon.
+
 ## What it does
 
 IdeaOpt treats startup idea refinement as a **design space exploration problem**. It is not a chatbot and not a one-shot report generator. It runs an iterative search that generates candidate hypotheses, evaluates them across multiple axes (pain, specificity, differentiation, testability, feasibility), merges the strongest components, and refines under budget constraints.
@@ -187,5 +189,3 @@ Agents are invoked as Claude Code CLI subprocesses, not via the Anthropic Python
 ## License
 
 MIT
-#   I d e a O p t  
- 
